@@ -1,0 +1,30 @@
+{
+  "name": "dame_server",
+  "version": "1.0.0",
+  "description": "this is a dame game to play together and have fun",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "dame",
+    "game",
+    "checkers"
+  ],
+  "author": "Artem Bakirov <bakirovartem69@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "express-ws": "^5.0.2",
+    "jsonwebtoken": "^9.0.0",
+    "nodemon": "^2.0.20",
+    "pg": "^8.9.0",
+    "ws": "^8.12.0"
+  },
+  "type": "module"
+}
